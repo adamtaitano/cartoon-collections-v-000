@@ -13,9 +13,9 @@ end
 def long_planeteer_calls(array)# code an argument here
     array.select do |call|
       if call.length > 4
-        return true
+        true
       else
-        return false
+        false
     end
   end
 end
@@ -25,9 +25,9 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |cheese|
     if array.include?(cheese)
-      return cheese
+      cheese
     else
-      return nil
+      nil
     end
   end
 end
